@@ -6,7 +6,7 @@ public class dmvSimulator {
        // Scanner input = new Scanner(System.in);
         Random randNum = new Random();
         
-        int myRandNum = randNum.nextInt(100);
+        int myRandNum = randNum.nextInt(200);
         myRandNum = myRandNum+1;
 
         int nextNum = myRandNum;
@@ -16,7 +16,7 @@ public class dmvSimulator {
         while(nextNum >= myRandNum || nextNum <= myRandNum) {
             
             nextNum++;
-            if(nextNum == 101) {
+            if(nextNum == 201) {
                 nextNum = 0;
                 nextNum++;
             }
