@@ -25,7 +25,7 @@ public class dmvSimulator {
 
             if(nextNum == myRandNum) {
                 System.out.println("Your number has been called!");
-                System.out.println("We're sorry, we cannot accept this paperwork, please come back again tomorrow.");
+                System.out.println("This is not the correct paperwork. Come back when you have the correct paperwork. Goodbye.");
                 break;
             }
 
