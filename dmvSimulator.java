@@ -25,9 +25,16 @@ public class dmvSimulator {
 
             if(nextNum == myRandNum) {
                 System.out.println("Your number has been called!");
+
+                    if(new Random().nextInt(100) == 0){
+                    System.out.println("The paperwork looks good, you're all set");
+                    break;
+                    }  else 
+                
                 System.out.println("This is not the correct paperwork. Come back when you have the correct paperwork. HAHAHA goodbye.");
                 break;
             }
+
 
         }
 
