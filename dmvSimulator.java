@@ -31,7 +31,7 @@ public class dmvSimulator {
                     break;
                     }  else 
                 
-                System.out.println("This is not the correct paperwork. Come back when you have the correct paperwork. Goodbye.");
+                System.out.println("This is not the correct paperwork. Come back when you have the correct paperwork. HAHAHA goodbye.");
                 break;
             }
 
